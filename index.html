@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-3.1.0.min.js"
+    ></script>
+
+    <title>soleil hair salon</title>
+    <meta
+      name="description"
+      content="実際のサイトを参考にして作ってみました（模写コーディング?）。下層ページは一部未制作なのでこれから勉強を進めつつ完成させていきます。"
+    />
+  </head>
+
+  <body class="body" id="page">
+    <header class="header">
+      <div class="header-content">
+        <div class="header-logo">
+          <a href="index.html"><span>LOGO</span></a>
+        </div>
+
+        <div class="header-menu" id="headerMenu">
+          <nav class="nav" id="nav-f">
+            <ul>
+              <li class="nav-list">
+                <a href="index.html" class="current">TOP</a>
+              </li>
+              <li class="nav-list"><a href="about.html">ABOUT</a></li>
+              <li class="nav-list"><a href="#">STYLE</a></li>
+              <li class="nav-list"><a href="staff.html">STAFF</a></li>
+              <li class="nav-list"><a href="#">MENU</a></li>
+              <li class="nav-list"><a href="#">NEWS</a></li>
+              <li class="nav-list"><a href="reserve.html">RESERVE</a></li>
+            </ul>
+            <div class="menu-salonInfo">
+              <h3 class="menu-salonInfo-title">Salon hours</h3>
+              <p class="menu-salonInfo-text">
+                Tue - Fri 12:00 - 22:00, Sat 11:00 - 20:00, Sun. Hol 10:00 -
+                19:00<br />Mon close / TEL. 0000-000-000
+              </p>
+            </div>
+          </nav>
+          <div class="header-humburgerMenu" id="humburgerMenu">
+            <i class="fas fa-bars" id="humburgerMenu-i"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="mainvisual">
+        <div class="mainvisual-img"></div>
+        <div class="mainvisual-content">
+          <h1 class="mainvisual-title">Soleil hair Salon</h1>
+          <p class="mainvisual-subtitle">A warm salon like the French sun</p>
+        </div>
+        <div class="mainvisual-news">
+          <a href="#">
+            <h2 class="mainvisual-news-head">NEWS</h2>
+            <div class="mainvisual-news-content">
+              <time class="mainvisual-news-time" datetime="2020-09-01"
+                >2020.09.01</time
+              >
+              <h3 class="mainvisual-news-title">営業時間変更のお知らせ</h3>
+            </div></a
+          >
+        </div>
+        <div class="right-menu">
+          <a href="reserve.html" class="mainvisual-reserve"
+            ><i class="fas fa-cut"></i><span>RESERVE</span></a
+          >
+          <a href="about.html#access" class="mainvisual-access"
+            ><i class="fas fa-map-marker-alt"></i><span>ACCESS</span></a
+          >
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about-bg"></div>
+        <div class="section-box">
+          <h2 class="section-title">ABOUT</h2>
+          <p class="section-subtitle">銀座の路地裏にある隠れ家サロン</p>
+          <p class="section-text">
+            白い漆喰の壁を基調としたアートに囲まれた店内は、ゆったりとした作りに加えて1人用、2人用の個室が備わり、プライベート感が満載。くつろぎのカフェブースやフルフラットのシャンプー台など、癒しの空間も広がる。
+          </p>
+          <div class="btn-m-all">
+            <a href="about.html">
+              <span class="btn-m-title">ABOUT</span>
+              <span class="btn-m">&gt;</span>
+            </a>
+          </div>
+        </div>
+        <img src="images/hairsalon1.png" alt="美容室内装" class="about-img" />
+      </section>
+
+      <section class="style">
+        <h2 class="heading">STYLE</h2>
+        <p class="subtitle">日常に輝きと彩りを与えるヘアデザイン</p>
+
+        <div class="style-list">
+          <article class="style-item">
+            <img src="images/girl-mina003.jpg" alt="" />
+            <div class="style-box">
+              <h3 class="style-category">MEDIUM</h3>
+              <span class="stylist">Stylist : Sasaki</span>
+              <span class="style-name">ピンクカラー</span>
+            </div>
+          </article>
+
+          <article class="style-item">
+            <img src="images/lady001.png" alt="ミディアムヘア女性" />
+            <div class="style-box">
+              <h3 class="style-category">MEDIUM</h3>
+              <span class="stylist">Stylist : Kato</span>
+              <span class="style-name">ミディアムボブスタイル</span>
+            </div>
+          </article>
+
+          <article class="style-item">
+            <img src="images/girl-me003.png" alt="ロングヘア" />
+            <div class="style-box">
+              <h3 class="style-category">LONG</h3>
+              <span class="stylist">Stylist : Sasaki</span>
+              <span class="style-name">ブルーアッシュ × ロングヘア</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="btn-s-all">
+          <a href="#">
+            <span class="btn-s-title">ALL STYLE</span>
+            <span class="btn-s">&gt;</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="staff">
+        <div class="section-box">
+          <h2 class="section-title">STAFF</h2>
+          <p class="section-subtitle">落ち着いた空間で最高のおもてなしを</p>
+          <p class="section-text">
+            髪質や毎日のスタイリングのお時間を考慮したうえで、ライフスタイルに合ったスタイルをご提案させていただきます。
+            ヘアスタイルを楽しみながら、新しい自分を見つけませんか？
+          </p>
+          <div class="btn-m-all">
+            <a href="staff.html">
+              <span class="btn-m-title">STAFF</span>
+              <span class="btn-m">&gt;</span>
+            </a>
+          </div>
+        </div>
+        <img src="images/hairsalon2.png" alt="内装" class="staff-img" />
+      </section>
+
+      <section class="news">
+        <h2 class="heading">NEWS & BLOG</h2>
+        <p class="subtitle">お知らせ、キャンペーンなど</p>
+
+        <ul class="news-list">
+          <li class="news-item">
+            <a href="#">
+              <div class="news-item-label">NEWS</div>
+              <time class="news-item-time" datetime="2020-08-01"
+                >2020.08.01</time
+              >
+              <p class="news-item-title">営業時間変更のお知らせ</p>
+            </a>
+          </li>
+          <li class="news-item">
+            <a href="#">
+              <div class="news-item-label">BLOG</div>
+              <time class="news-item-time" datetime="2020-07-01"
+                >2020.07.01</time
+              >
+              <p class="news-item-title">人気のシャンプーが入荷しました</p>
+            </a>
+          </li>
+          <li class="news-item">
+            <a href="#">
+              <div class="news-item-label">NEWS</div>
+              <time class="news-item-time" datetime="2020-06-01"
+                >2020.06.01</time
+              >
+              <p class="news-item-title">臨時休業のお知らせ</p>
+            </a>
+          </li>
+          <li class="news-item">
+            <a href="#">
+              <div class="news-item-label">NEWS</div>
+              <time class="news-item-time" datetime="2020-05-01"
+                >2020.05.01</time
+              >
+              <p class="news-item-title">新型コロナウイルス対策について</p>
+            </a>
+          </li>
+          <li class="news-item">
+            <a href="#">
+              <div class="news-item-label">NEWS</div>
+              <time class="news-item-time" datetime="2020-04-01"
+                >2020.04.01</time
+              >
+              <p class="news-item-title">当店が雑誌に掲載されました</p>
+            </a>
+          </li>
+          <li class="news-item">
+            <a href="#">
+              <div class="news-item-label">BLOG</div>
+              <time class="news-item-time" datetime="2020-03-01"
+                >2020.03.01</time
+              >
+              <p class="news-item-title">スタッフを募集しています</p>
+            </a>
+          </li>
+        </ul>
+
+        <div class="btn-s-all">
+          <a href="#">
+            <span class="btn-s-title">ALL NEWS</span>
+            <span class="btn-s">&gt;</span>
+          </a>
+        </div>
+      </section>
+
+      <div class="pagetop">
+        <a href="#page" class="pagetop-text"
+          ><i class="fas fa-angle-double-up"></i
+        ></a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-saloninfo-title">Salon hours</p>
+      <p class="footer-saloninfo-text">
+        Tue - Fri 12:00 - 22:00, Sat 11:00 - 20:00, Sun. Hol 10:00 - 19:00 , Mon
+        close<br />TEL. 0000-000-000
+      </p>
+
+      <p class="footer-facebook">
+        <a href="https://www.facebook.com/facebook"
+          ><span class="footer-f"
+            ><i class="fab fa-facebook-f"></i>Facebook</span
+          ></a
+        >
+      </p>
+
+      <p class="footer-instagram">
+        <a href="https://www.instagram.com/salt_1998.24/"
+          ><span class="footer-i"
+            ><i class="fab fa-instagram"></i>Instagram</span
+          ></a
+        >
+      </p>
+
+      <span class="copyright">copyright© 2020 Spin. All Right Reserved.</span>
+    </footer>
+
+    <script>
+      //jQueryのスムーススクロール
+      $(function () {
+        $('a[href^="#"]').click(function () {
+          // スクロールの速度
+          var speed = 400; // ミリ秒で記述
+          var href = $(this).attr("href");
+          var target = $(href == "#" || href == "" ? "html" : href);
+          var position = target.offset().top;
+          $("body,html").animate({ scrollTop: position }, speed, "swing");
+          return false;
+        });
+      });
+    </script>
+    <script src="nav-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+2020.09.16
+・index.html / JavaScriptのアウトプットとして、jQueryで実装していたスムーススクロールをJSに置換。（参考サイト:https://flex-box.net/js-smoothscroll/ )
+→jQeryではスクロールの速度が未指定
+
+
+2020.09.19
+・JSのアウトプットとして、ハンバーガーメニューを作成。(参考サイト:https://tech-dig.jp/easy_hamburger/)
